@@ -7,7 +7,7 @@ while ord(zn)<>13 do
 begin
 write('zn=');readln(zn);
 case zn of
-'a','e','i','o','u','y',' ','ê','®','ã','¥','¨','A','E','I','O','U','Y','€','š','Ž','“','…','ˆ':glasni:=glasni+1;
+'a','e','i','o','u','y','Â ','Ãª','Â®','Ã£','Â¥','Â¨','A','E','I','O','U','Y','â‚¬','Å¡','Å½','â€œ','â€¦','Ë†':glasni:=glasni+1;
 else writeln(zn);
 end;
 end;
